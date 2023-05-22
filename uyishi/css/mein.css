@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 1134px;
+    height: 542px;
+    background: #FFFFFF;
+}
+
+.checkbox__conta {
+    position: absolute;
+    width: 208px;
+    height: 197px;
+    left: 463px;
+    top: 172px;
+    border: 1px dashed #9747FF;
+    border-radius: 5px;
+}
+
+
+
+
+.form__1{
+    display: flex;
+    padding: 20px;
+    column-gap: 32px;
+    justify-content: center;
+}
+.check_lebel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.costum__checkbox {
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+.checkbox {
+    visibility: hidden;
+}
+.checkboxx {
+    visibility: hidden;
+}
+.checkboxxx {
+    visibility: hidden;
+}
+.checkbox:disabled + .costum__checkbox {
+    background-color: #D5D5D5;
+    border-color: #727272;
+}
+.checkboxx:hover + .costum__checkbox {
+    
+    background: #DDDDDD;
+}
+.checkboxxx:active + .costum__checkbox {
+    box-shadow:2px 2px 0px #000000;
+}
+
+
+.form_2{
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+}
+.custom__checkbox {
+    cursor: pointer;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000000;
+    border-radius: 2px;
+}
+.check_lebell {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check {
+    visibility: hidden;
+}
+.chec {
+    visibility: hidden;
+}
+.check__shadow {
+    visibility: hidden;
+}
+.check:checked + .custom__checkbox {
+    background-image: url(../images/icon.png);
+    background-color: #FFC29F;
+    background-repeat: no-repeat;
+   background-size: 12px 9.5px;
+   background-position: center center;
+   text-decoration: none;
+}
+.check:checked:disabled + .custom__checkbox 
+{
+    background-image: url(../images/icon\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: 12px 9.5px;
+    background-position: center center;
+    text-decoration: none;
+    background-color: #D5D5D5;
+    border-color: #727272;
+    
+}
+.chec:checked + .custom__checkbox  {
+    background-color: #FFC29F;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+   background-size: 12px 9.5px;
+   background-position: center center;
+   text-decoration: none;
+}
+.chec:checked:hover + .custom__checkbox 
+{
+    background-color: #FF965B;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+   background-size: 12px 9.5px;
+   background-position: center center;
+   text-decoration: none;
+}
+.check__shadow:checked + .custom__checkbox {
+    background-color: #FFC29F;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+   background-size: 12px 9.5px;
+   background-position: center center;
+   text-decoration: none;
+}
+.check__shadow:checked:hover + .custom__checkbox 
+{
+    background-color: #FF965B;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+   background-size: 12px 9.5px;
+   background-position: center center;
+   text-decoration: none;
+}
+.check__shadow:checked:hover:active + .custom__checkbox {
+background-color: #FF792E;
+background-image: url(../images/icon.png);
+background-repeat: no-repeat;
+background-size: 12px 9.5px;
+background-position: center center;
+text-decoration: none;
+box-shadow:2px 2px 0px #000000;
+}
+
+
+
+/* .check__p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+.location {
+    position: absolute;
+    width: 65px;
+    height: 15px;
+    left: 747px;
+    top: 193px;
+}
+.active {
+    position: relative;
+}
+.active::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 0px;
+    left: 693px;
+    top: 200px;
+    background-image: url(../images/
+    );
+    border: 1px solid #000000;
+} */
+
+
+    
